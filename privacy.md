@@ -5,8 +5,8 @@ permalink: /privacy/
 
 # Privacy policy
 
-**Almanac – Ancient Cycles**
-Effective 5 October 2026
+Almanac – Ancient Cycles · Effective 5 October 2026
+{: .meta}
 
 Almanac doesn't collect any personal data. Everything it shows is calculated on your iPhone. The app has no account, no ads, no analytics and no tracking, and it doesn't include any third-party code that collects data.
 
@@ -42,4 +42,4 @@ If this policy changes, the new version will be posted on this page with a new e
 
 ## Contact
 
-Questions about privacy: **YOUR-EMAIL-HERE**
+Questions about privacy: [danialsarfraz2000@gmail.com](mailto:danialsarfraz2000@gmail.com?subject=Almanac%20privacy)

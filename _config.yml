@@ -1,5 +1,22 @@
 title: Almanac – Ancient Cycles
 description: Ancient calendars and the sky they were built to follow.
-theme: jekyll-theme-minimal
+author: Danyal Sarfraz
+email: danialsarfraz2000@gmail.com
+portfolio: https://danyals-code.github.io/
+lang: en
+url: https://danyals-code.github.io
+baseurl: /almanac
+# When the app is live, paste its App Store link here to show a download button.
+app_store_url:
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 exclude:
   - README.md
+  - website-setup.md

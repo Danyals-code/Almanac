@@ -1,0 +1,93 @@
+---
+title: Almanac – Ancient Cycles
+home: true
+description: Name any day as the Maya, the Egyptians, and the astronomers of China and Islam counted it, and see when ancient sites line up with the sky.
+shots:
+  - file: shot-home.jpg
+    caption: Today, as the ancients counted it
+  - file: shot-maya-wheel.jpg
+    caption: Turn the Maya calendar wheels
+  - file: shot-stonehenge-compass.jpg
+    caption: Stonehenge on a compass that turns with you
+  - file: shot-eclipse.jpg
+    caption: Every eclipse, on the moon wheel
+  - file: shot-newgrange.jpg
+    caption: Newgrange and the midwinter sunrise
+  - file: shot-chinese-wheel.jpg
+    caption: The Chinese lunisolar year
+---
+<section class="hero">
+  <img class="hero__icon" src="{{ '/assets/img/icon.png' | relative_url }}" alt="The Almanac app icon: a Maya jaguar glyph" width="128" height="128">
+  <p class="eyebrow">For iPhone</p>
+  <h1 class="hero__title">Almanac</h1>
+  <p class="hero__headline">Every day, as the ancients counted it.</p>
+  <p class="hero__lede">Almanac names any day from 10,000&nbsp;BC to AD&nbsp;3000 the way the Maya, the Egyptians, and the astronomers of China and Islam counted it. It also shows when sixteen ancient sites, from Göbekli Tepe to Machu Picchu, line up with the sun, the moon and the stars.</p>
+  <div class="hero__actions">
+    {%- if site.app_store_url %}
+    <a class="btn" href="{{ site.app_store_url }}">Download on the App Store</a>
+    {%- else %}
+    <span class="btn btn--quiet">Coming soon to the App Store</span>
+    {%- endif %}
+    <a class="link-more" href="{{ '/support/' | relative_url }}">Get support</a>
+  </div>
+</section>
+
+<section class="gallery" aria-label="Screenshots">
+  <ul class="gallery__track">
+    {%- for shot in page.shots %}
+    <li class="gallery__item">
+      <figure>
+        <img src="{{ '/assets/img/' | append: shot.file | relative_url }}" alt="Screenshot: {{ shot.caption }}" width="460" height="1000" loading="{% if forloop.index > 3 %}lazy{% else %}eager{% endif %}">
+        <figcaption>{{ shot.caption }}</figcaption>
+      </figure>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="stats" aria-label="At a glance">
+  <dl class="stats__grid">
+    <div><dt>12,000 years</dt><dd>10,000 BC to AD 3000</dd></div>
+    <div><dt>4 calendars</dt><dd>Maya, Egyptian, Islamic, Chinese</dd></div>
+    <div><dt>16 sites</dt><dd>From Göbekli Tepe to Machu Picchu</dd></div>
+    <div><dt>30 alignments</dt><dd>Sun, moon and stars</dd></div>
+  </dl>
+</section>
+
+<section class="features">
+  <h2 class="section-title">Ancient calendars and the sky they were built to follow.</h2>
+  <div class="features__grid">
+    <article class="tile">
+      <h3>Turn the wheels of time</h3>
+      <p>Spin the Maya, Egyptian, Islamic and Chinese calendar wheels with your finger and watch the days go round. Type a date in any of them, from 13.0.0.0.0 to 1&nbsp;Thoth or 1&nbsp;Muharram.</p>
+    </article>
+    <article class="tile">
+      <h3>Where stone meets sky</h3>
+      <p>Stonehenge, Newgrange, Giza, Chichén Itzá and more. Drag through the hours and watch the sun cross each plan into line, on a compass that turns with your iPhone.</p>
+    </article>
+    <article class="tile">
+      <h3>The sky above you</h3>
+      <p>Where the sun rises and sets for you, at the solstices and equinoxes. Every solar and lunar eclipse, with what you can see of it from where you are.</p>
+    </article>
+    <article class="tile">
+      <h3>Your birthday, anciently</h3>
+      <p>Find your Maya day sign, Egyptian season and Chinese animal, plus your Hijri, Hebrew and Indian dates, and share them as a card.</p>
+    </article>
+    <article class="tile">
+      <h3>Reminders and widgets</h3>
+      <p>Follow a site to get a reminder before its next alignment. Add a calendar wheel, an ancient site or a sky compass to your Home Screen.</p>
+    </article>
+    <article class="tile">
+      <h3>Shown with its sources</h3>
+      <p>Every calculation follows published astronomy, from Jean Meeus’s <cite>Astronomical Algorithms</cite> onwards. Tap “Show the math” on any alignment to see where it comes from.</p>
+    </article>
+  </div>
+</section>
+
+<section class="privacy-band">
+  <div class="privacy-band__inner">
+    <h2 class="section-title">Private by design.</h2>
+    <p>Everything Almanac shows is calculated on your iPhone, and it works offline. There’s no account, no ads, no analytics and no tracking. Almanac doesn’t collect any personal data.</p>
+    <a class="link-more" href="{{ '/privacy/' | relative_url }}">Read the privacy policy</a>
+  </div>
+</section>
