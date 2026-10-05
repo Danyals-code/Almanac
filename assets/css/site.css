@@ -116,6 +116,7 @@ a:focus-visible, .btn:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .nav__brand {
@@ -461,6 +462,7 @@ a:focus-visible, .btn:focus-visible {
 
 @media (max-width: 560px) {
   :root { --gutter: 16px; }
+  .nav__links { gap: 16px; }
   .hero { padding-top: 48px; }
   .hero__icon { width: 104px; height: 104px; border-radius: 23px; }
   .features__grid { grid-template-columns: 1fr; }
@@ -468,6 +470,17 @@ a:focus-visible, .btn:focus-visible {
   .stats__grid dt { font-size: 24px; }
   .prose { padding-top: 40px; }
   .footer__inner { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 360px) {
+  .nav__brand span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

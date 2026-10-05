@@ -23,7 +23,7 @@
   <meta property="og:description" content="{{ page_description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{{ '/assets/img/apple-touch-icon.png' | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=1">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=2">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -38,6 +38,7 @@
         <ul class="nav__links">
           <li><a href="{{ '/support/' | relative_url }}"{% if page.url == '/support/' %} aria-current="page"{% endif %}>Support</a></li>
           <li><a href="{{ '/privacy/' | relative_url }}"{% if page.url == '/privacy/' %} aria-current="page"{% endif %}>Privacy</a></li>
+          <li><a href="{{ '/licences/' | relative_url }}"{% if page.url == '/licences/' %} aria-current="page"{% endif %}>Licences</a></li>
         </ul>
       </nav>
     </div>
