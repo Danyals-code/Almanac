@@ -43,3 +43,7 @@ No. Everything is calculated on your iPhone, and the app has no account.
 ## Privacy
 
 Almanac doesn't collect any personal data. Read the [privacy policy](../privacy/).
+
+## Sources
+
+The astronomy and archaeology behind every date and alignment are listed under [Sources & licences](../licences/).

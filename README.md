@@ -7,6 +7,7 @@ The public pages for the iPhone app **Almanac – Ancient Cycles**. GitHub Pages
 | Home | `index.html` | https://danyals-code.github.io/almanac/ |
 | Privacy policy | `privacy.md` | https://danyals-code.github.io/almanac/privacy/ |
 | Support | `support.md` | https://danyals-code.github.io/almanac/support/ |
+| Sources & licences | `licences.md` | https://danyals-code.github.io/almanac/licences/ |
 
 `_config.yml` sets the site's title, contact email and App Store link. It also keeps this README and `website-setup.md` off the published site.
 
@@ -18,6 +19,7 @@ Edit a `.md` file on github.com (the pencil icon), then commit. The site updates
 
 - **Privacy policy:** change the "Effective" date whenever the policy changes. If the app ever collects data, say what is collected and why before releasing that version. Also update the App Privacy answers in App Store Connect.
 - **Support:** add to "Common questions" when people ask the same thing more than once. Each question is a `###` heading with its answer below.
+- **Sources & licences:** keep it in step with Personalize → Sources & licences in the app. Add a credit for any image whose licence asks for one.
 - **When the app is live:** paste its App Store link after `app_store_url:` in `_config.yml`. The home page then shows a download button instead of "Coming soon".
 
 ## Used by

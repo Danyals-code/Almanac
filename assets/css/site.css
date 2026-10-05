@@ -400,6 +400,23 @@ a:focus-visible, .btn:focus-visible {
 .prose li { margin: 4px 0; }
 .prose strong { font-weight: 600; }
 
+.prose pre {
+  margin: 0 0 16px;
+  padding: 20px;
+  overflow-x: auto;
+  border-radius: 12px;
+  background: var(--bg-2);
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.prose code {
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  letter-spacing: 0;
+}
+
 .prose .callout {
   padding: 20px 24px;
   border-radius: var(--radius);
